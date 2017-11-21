@@ -1,0 +1,5 @@
+<templateSet group="Clojure">
+  <template name="def" value="(defn- $name$ []&#10;  $END$)" description="defn-" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
+  </template>
+</templateSet>

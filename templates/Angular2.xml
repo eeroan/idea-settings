@@ -1,0 +1,8 @@
+<templateSet group="Angular2">
+  <template name="ng2-case" value="&lt;$TAG_NAME$ *ngSwitchCase=&quot;'$TAG_NAME$'&quot; $END$&gt;&lt;/$TAG_NAME$&gt;" description="Angular2 case" toReformat="true" toShortenFQNames="true">
+    <variable name="TAG_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,75 @@
+<application>
+  <component name="CodeStyleSchemesUIConfiguration">
+    <option name="RECENT_IMPORT_FILE_LOCATION" value="file:$USER_HOME$/work/Finnair/finnair-cms/finnair-formatter.xml" />
+  </component>
+  <component name="NodeJsLocalInterpreters">
+    <local-interpreter path="$USER_HOME$/.nvm/versions/node/v8.9.1/bin/node">
+      <version-cache version="8.9.1" last-modified="1510090689000" />
+    </local-interpreter>
+    <local-interpreter path="$USER_HOME$/.nvm/versions/node/v8.9.0/bin/node">
+      <version-cache version="8.9.0" last-modified="1509467518000" />
+    </local-interpreter>
+    <local-interpreter path="$USER_HOME$/.nvm/versions/node/v8.7.0/bin/node">
+      <version-cache version="8.7.0" last-modified="1507725156000" />
+    </local-interpreter>
+    <local-interpreter path="$USER_HOME$/.nvm/versions/node/v8.5.0/bin/node">
+      <version-cache version="8.5.0" last-modified="1505225484000" />
+    </local-interpreter>
+    <local-interpreter path="$USER_HOME$/.nvm/versions/node/v8.4.0/bin/node">
+      <version-cache version="8.4.0" last-modified="1502815164000" />
+    </local-interpreter>
+    <local-interpreter path="$USER_HOME$/.nvm/versions/node/v8.3.0/bin/node">
+      <version-cache version="8.3.0" last-modified="1502304347000" />
+    </local-interpreter>
+    <local-interpreter path="/usr/local/Cellar/node/7.4.0/bin/node">
+      <version-cache version="7.4.0" last-modified="1483551728000" />
+      <npm-package value="/usr/local/lib/node_modules/npm" />
+    </local-interpreter>
+    <local-interpreter path="/usr/local/bin/node">
+      <version-cache version="7.4.0" last-modified="1483551728000" />
+      <npm-package value="/usr/local/Cellar/yarn/0.19.1/libexec/lib/node_modules/yarn" />
+    </local-interpreter>
+    <local-interpreter path="/usr/local/Cellar/node/7.3.0/bin/node">
+      <version-cache version="7.3.0" last-modified="1482263667000" />
+    </local-interpreter>
+    <local-interpreter path="/usr/local/Cellar/node/7.0.0/bin/node">
+      <version-cache version="7.0.0" last-modified="1477401981000" />
+    </local-interpreter>
+    <local-interpreter path="$USER_HOME$/.nvm/versions/node/v6.11.1/bin/node">
+      <version-cache version="6.11.1" last-modified="1499735291000" />
+      <npm-package value="$USER_HOME$/.nvm/versions/node/v6.11.1/lib/node_modules/npm" />
+    </local-interpreter>
+    <local-interpreter path="$USER_HOME$/.nvm/versions/node/v6.9.1/bin/node">
+      <version-cache last-modified="0" />
+      <npm-package value="$USER_HOME$/.nvm/versions/node/v6.9.1/lib/node_modules/npm" />
+    </local-interpreter>
+    <local-interpreter path="/usr/local/Cellar/node/6.5.0/bin/node">
+      <version-cache version="6.5.0" last-modified="1472225243000" />
+    </local-interpreter>
+    <local-interpreter path="/usr/local/Cellar/node/6.2.1/bin/node">
+      <version-cache version="6.2.1" last-modified="1464904443000" />
+    </local-interpreter>
+    <local-interpreter path="/usr/local/Cellar/node/5.9.1/bin/node">
+      <version-cache version="5.9.1" last-modified="1458749067000" />
+    </local-interpreter>
+    <local-interpreter path="/usr/local/Cellar/node/5.6.0/bin/node">
+      <version-cache version="5.6.0" last-modified="1455035122000" />
+    </local-interpreter>
+  </component>
+  <component name="NodeLocalInterpreterManager">
+    <node-interpreter path="/usr/local/bin/node" version="7.3.0" last-modified="1482263667000" />
+    <node-interpreter path="/usr/local/Cellar/node/5.6.0/bin/node" version="5.6.0" last-modified="1455035122000" />
+  </component>
+  <component name="RefactoringSettings">
+    <option name="RENAME_SEARCH_IN_COMMENTS_FOR_METHOD" value="false" />
+    <option name="RENAME_SEARCH_FOR_TEXT_FOR_METHOD" value="false" />
+    <option name="MOVE_PREVIEW_USAGES" value="false" />
+    <option name="MOVE_INNER_PREVIEW_USAGES" value="false" />
+    <option name="INLINE_SUPER_CLASS_THIS" value="true" />
+    <option name="INTRODUCE_CONSTANT_VISIBILITY" value="public" />
+    <option name="INTRODUCE_LOCAL_CREATE_FINALS" value="false" />
+  </component>
+  <component name="SvgViewer.Settings">
+    <option name="PLUGIN_ENABLED" value="true" />
+  </component>
+</application>
