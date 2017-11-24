@@ -1,4 +1,17 @@
 <code_scheme name="2spaces">
+  <option name="AUTODETECT_INDENTS" value="false" />
+  <option name="OTHER_INDENT_OPTIONS">
+    <value>
+      <option name="INDENT_SIZE" value="2" />
+      <option name="CONTINUATION_INDENT_SIZE" value="8" />
+      <option name="TAB_SIZE" value="2" />
+      <option name="USE_TAB_CHARACTER" value="false" />
+      <option name="SMART_TABS" value="false" />
+      <option name="LABEL_INDENT_SIZE" value="0" />
+      <option name="LABEL_INDENT_ABSOLUTE" value="false" />
+      <option name="USE_RELATIVE_INDENTS" value="false" />
+    </value>
+  </option>
   <ClojureCodeStyleSettings>{
   :cursive.formatting/align-conditionals false
   :cursive.formatting/align-maps false
@@ -11,7 +24,6 @@
     <option name="USE_SEMICOLON_AFTER_STATEMENT" value="false" />
     <option name="ALIGN_OBJECT_PROPERTIES" value="1" />
     <option name="SPACE_BEFORE_FUNCTION_LEFT_PARENTH" value="false" />
-    <option name="REFORMAT_C_STYLE_COMMENTS" value="false" />
   </JSCodeStyleSettings>
   <JSON>
     <option name="OBJECT_WRAPPING" value="1" />
@@ -42,7 +54,6 @@
     <indentOptions>
       <option name="INDENT_SIZE" value="2" />
       <option name="CONTINUATION_INDENT_SIZE" value="2" />
-      <option name="TAB_SIZE" value="2" />
     </indentOptions>
   </codeStyleSettings>
 </code_scheme>
