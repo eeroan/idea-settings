@@ -21,13 +21,9 @@
       <mask>*.css</mask>
       <mask>*.cs</mask>
       <mask>*.c</mask>
-      <mask>*.hbs</mask>
-      <mask>*.hb</mask>
       <mask>*.html</mask>
       <mask>*.htm</mask>
       <mask>*.ht</mask>
-      <mask>*.h</mask>
-      <mask>*.j</mask>
       <mask>*.kes</mask>
       <mask>*.ke</mask>
       <mask>*.k</mask>
@@ -35,6 +31,10 @@
       <mask>*.les</mask>
       <mask>*.less</mask>
       <mask>*</mask>
+      <mask>*.j</mask>
+      <mask>*.hbs</mask>
+      <mask>*.hb</mask>
+      <mask>*.h</mask>
       <mask>*.</mask>
       <mask>*.js</mask>
     </recentFileMasks>
