@@ -3,7 +3,7 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.js" />
+    <option name="FILE_MASK" value="*.hbs" />
     <recentFileMasks>
       <mask>*js, *.hbs*</mask>
       <mask>*.hbs*</mask>
@@ -29,12 +29,12 @@
       <mask>*.les</mask>
       <mask>*.le</mask>
       <mask>*.l</mask>
-      <mask>*.hbs</mask>
       <mask>*.hb</mask>
       <mask>*.h</mask>
       <mask>*.</mask>
       <mask>*.html</mask>
       <mask>*.js</mask>
+      <mask>*.hbs</mask>
     </recentFileMasks>
   </component>
 </application>
