@@ -2,9 +2,10 @@
   <component name="DatabaseSettings" version="3">
     <text-mode>
       <parameter-patterns>
+        <parameter-pattern value="\$\{([^$\{\}]*)\}" scope="JavaScript,PostgreSQL" />
+        <parameter-pattern value="\$\{([^}]*)\}" scope="JavaScript,PostgreSQL" />
         <parameter-pattern value="\$\d+" scope="JavaScript,PostgreSQL" />
         <parameter-pattern value=":\d" />
-        <parameter-pattern value="\$\{([^}]*)\}" scope="JavaScript,PostgreSQL" />
         <parameter-pattern value="%\w+" scope="JAVA,Python" predefined="%name" />
         <parameter-pattern value="\$\{([^\{\}]*)\}" in-literals="false" predefined="${name}" />
         <parameter-pattern value="\$\(([^\)]+)\)" in-literals="false" predefined="$(name)" />
@@ -12,7 +13,6 @@
         <parameter-pattern value="(?&lt;=\W|\A)\$(\d+|[a-zA-Z_](?:\w|\.)*)\$?(?=\W|\z)" in-literals="false" scope="*,-SQL" predefined="$a.b.c$?" />
         <parameter-pattern value="(?&lt;=\W|\A)#(\d+|[a-zA-Z_](?:\w|\.)*)#?(?=\W|\z)" scope="*,-SQL" predefined="#a.b.c#?" />
         <parameter-pattern value="%\((\w+)\)s" scope="Python" predefined="%(name)s" />
-        <parameter-pattern value="\$\{([^$\{\}]*)\}" scope="JavaScript,PostgreSQL" />
         <parameter-pattern value="EXTERNAL_FRAGMENT" />
       </parameter-patterns>
     </text-mode>
