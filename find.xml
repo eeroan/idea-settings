@@ -14,7 +14,7 @@
     <mask>*.html</mask>
     <mask>*.hbs</mask>
     <mask>*.less</mask>
-    <mask>*.js</mask>
     <mask>*.css</mask>
+    <mask>*.js</mask>
   </component>
 </application>
