@@ -11,4 +11,7 @@
   <action id="Tool_External Tools_Prettier">
     <keyboard-shortcut first-keystroke="ctrl meta alt l" />
   </action>
+  <action id="Tool_External Tools_integration_test">
+    <keyboard-shortcut first-keystroke="ctrl meta alt r" />
+  </action>
 </keymap>
