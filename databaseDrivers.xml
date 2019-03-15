@@ -57,9 +57,6 @@
       <option name="auto-commit" value="true" />
       <option name="send-app-info" value="true" />
       <property name="sslmode" value="require" />
-      <library>
-        <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/PostgreSQL/42.2.5/postgresql-42.2.5.jar</url>
-      </library>
       <code-style-scheme-name>Default</code-style-scheme-name>
     </driver>
     <driver id="redshift">
