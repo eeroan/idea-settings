@@ -16,7 +16,7 @@
     <mask>*.[^log]</mask>
     <mask>*.css</mask>
     <mask>*.less</mask>
-    <mask>*.js</mask>
     <mask>*.json</mask>
+    <mask>*.js</mask>
   </component>
 </application>
