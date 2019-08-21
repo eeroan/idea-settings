@@ -15,8 +15,8 @@
     <mask>*.hbs</mask>
     <mask>*.[^log]</mask>
     <mask>*.css</mask>
-    <mask>*.less</mask>
     <mask>*.json</mask>
     <mask>*.js</mask>
+    <mask>*.less</mask>
   </component>
 </application>
