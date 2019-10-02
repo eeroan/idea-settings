@@ -13,8 +13,8 @@
     <mask>*.[^log]</mask>
     <mask>*.css</mask>
     <mask>*.json</mask>
-    <mask>*.hbs</mask>
     <mask>*.less</mask>
     <mask>*.js</mask>
+    <mask>*.hbs</mask>
   </component>
 </application>
