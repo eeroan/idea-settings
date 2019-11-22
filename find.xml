@@ -7,7 +7,6 @@
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
     <option name="LOCAL_WHOLE_WORDS_ONLY" value="true" />
     <option name="SEARCH_SCOPE" value="Default" />
-    <option name="FILE_MASK" value="*.less" />
     <mask>*.properties</mask>
     <mask>*.jsp</mask>
     <mask>*.xml</mask>
@@ -21,7 +20,7 @@
     <mask>*.json</mask>
     <mask>!*.log</mask>
     <mask>!*.log, *.js</mask>
-    <mask>*.js</mask>
     <mask>*.less</mask>
+    <mask>*.js</mask>
   </component>
 </application>
