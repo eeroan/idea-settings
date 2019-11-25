@@ -22,5 +22,6 @@
     <mask>!*.log, *.js</mask>
     <mask>*.less</mask>
     <mask>*.js</mask>
+    <mask>*.js,*.ts</mask>
   </component>
 </application>
