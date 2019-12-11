@@ -5,6 +5,7 @@
     <option name="localWholeWordsOnly" value="true" />
     <option name="LOCAL_WHOLE_WORDS_ONLY" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.js" />
     <mask>*.properties</mask>
     <mask>*.jsp</mask>
     <mask>*.java</mask>
@@ -18,8 +19,8 @@
     <mask>!*.log</mask>
     <mask>!*.log, *.js</mask>
     <mask>*.less</mask>
-    <mask>*.js</mask>
     <mask>*.js,*.ts</mask>
     <mask>*.xml</mask>
+    <mask>*.js</mask>
   </component>
 </application>
