@@ -19,7 +19,7 @@
     <mask>*.js,!*test.js</mask>
     <mask>*.less</mask>
     <mask>!*.log</mask>
-    <mask>*.js</mask>
     <mask>*.js,*.hbs</mask>
+    <mask>*.js</mask>
   </component>
 </application>
