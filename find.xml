@@ -5,7 +5,7 @@
     <option name="defaultScopeName" value="All Places" />
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="!*.snap,!*.xml" />
+    <option name="FILE_MASK" value="*.js" />
     <mask>*.properties</mask>
     <mask>*.jsp</mask>
     <mask>*.java</mask>
@@ -23,8 +23,8 @@
     <mask>*.js,*.hbs</mask>
     <mask>*.hbs</mask>
     <mask>*.less</mask>
-    <mask>*.js</mask>
     <mask>*.tsx,*.js</mask>
     <mask>!*.snap,!*.xml</mask>
+    <mask>*.js</mask>
   </component>
 </application>
