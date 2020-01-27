@@ -5,6 +5,7 @@
     <option name="defaultScopeName" value="All Places" />
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.less" />
     <mask>*.properties</mask>
     <mask>*.jsp</mask>
     <mask>*.java</mask>
@@ -21,10 +22,10 @@
     <mask>!*.log</mask>
     <mask>*.js,*.hbs</mask>
     <mask>*.hbs</mask>
-    <mask>*.less</mask>
     <mask>*.tsx,*.js</mask>
     <mask>!*.snap,!*.xml</mask>
     <mask>*.js</mask>
     <mask>*.js,!*bundle.js</mask>
+    <mask>*.less</mask>
   </component>
 </application>
