@@ -5,7 +5,7 @@
     <option name="defaultScopeName" value="All Places" />
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="!*.snap" />
+    <option name="FILE_MASK" value="!*.log*" />
     <mask>*.properties</mask>
     <mask>*.jsp</mask>
     <mask>*.java</mask>
@@ -28,5 +28,6 @@
     <mask>*.less</mask>
     <mask>!*.log</mask>
     <mask>!*.snap</mask>
+    <mask>!*.log*</mask>
   </component>
 </application>
