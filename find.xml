@@ -7,6 +7,7 @@
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.less" />
     <mask>*.properties</mask>
     <mask>*.jsp</mask>
     <mask>*.java</mask>
@@ -26,10 +27,10 @@
     <mask>!*.snap,!*.xml</mask>
     <mask>*.js</mask>
     <mask>*.js,!*bundle.js</mask>
-    <mask>*.less</mask>
     <mask>!*.log</mask>
     <mask>!*.snap</mask>
     <mask>!*.log*</mask>
     <mask>*.js, !*test*, !*db*</mask>
+    <mask>*.less</mask>
   </component>
 </application>
