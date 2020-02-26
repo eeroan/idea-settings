@@ -27,9 +27,9 @@
     <mask>*.js</mask>
     <mask>*.js,!*bundle.js</mask>
     <mask>!*.log</mask>
-    <mask>!*.snap</mask>
     <mask>!*.log*</mask>
     <mask>*.js, !*test*, !*db*</mask>
     <mask>*.less</mask>
+    <mask>!*.snap</mask>
   </component>
 </application>
