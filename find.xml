@@ -1,8 +1,10 @@
 <application>
   <component name="FindSettings">
+    <option name="caseSensitive" value="true" />
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="localWholeWordsOnly" value="true" />
+    <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="LOCAL_WHOLE_WORDS_ONLY" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
     <mask>*.properties</mask>
@@ -23,7 +25,6 @@
     <mask>*.tsx,*.js</mask>
     <mask>!*.snap,!*.xml</mask>
     <mask>*.js,!*bundle.js</mask>
-    <mask>!*.log</mask>
     <mask>!*.log*</mask>
     <mask>*.js, !*test*, !*db*</mask>
     <mask>!*.snap</mask>
@@ -32,5 +33,6 @@
     <mask>*.tsx</mask>
     <mask>*.less,*.tsx</mask>
     <mask>*.less</mask>
+    <mask>!*.log</mask>
   </component>
 </application>
