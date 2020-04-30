@@ -5,6 +5,7 @@
     <option name="localWholeWordsOnly" value="true" />
     <option name="LOCAL_WHOLE_WORDS_ONLY" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="!*.log,!*.snap" />
     <mask>*.properties</mask>
     <mask>*.jsp</mask>
     <mask>*.java</mask>
@@ -32,5 +33,6 @@
     <mask>*.less,*.tsx</mask>
     <mask>*.less</mask>
     <mask>!*.log</mask>
+    <mask>!*.log,!*.snap</mask>
   </component>
 </application>
