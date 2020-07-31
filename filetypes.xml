@@ -3,8 +3,8 @@
     <extensionMap>
       <mapping ext="klib" type="ARCHIVE" />
       <mapping pattern="force_clean_build" type="PLAIN_TEXT" />
-      <mapping pattern=".tslintignore" type="PLAIN_TEXT" />
       <mapping pattern="use_npm" type="PLAIN_TEXT" />
+      <mapping pattern=".tslintignore" type="PLAIN_TEXT" />
       <mapping ext="node" type="PLAIN_TEXT" />
     </extensionMap>
   </component>

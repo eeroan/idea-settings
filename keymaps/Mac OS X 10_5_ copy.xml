@@ -11,9 +11,7 @@
   </action>
   <action id="DuplicatesForm.SendToRight" />
   <action id="FileChooser.GotoProject" />
-  <action id="Javascript.Linters.EsLint.Fix">
-    <keyboard-shortcut first-keystroke="meta alt o_with_diaeresis" />
-  </action>
+  <action id="Javascript.Linters.EsLint.Fix" />
   <action id="NextProjectWindow">
     <keyboard-shortcut first-keystroke="meta alt back_quote" />
     <keyboard-shortcut first-keystroke="meta alt #10000a7" />
