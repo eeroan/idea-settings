@@ -16,16 +16,20 @@
     <keyboard-shortcut first-keystroke="meta alt back_quote" />
     <keyboard-shortcut first-keystroke="meta alt #10000a7" />
   </action>
+  <action id="PrettierImportCodeStyleAction">
+    <keyboard-shortcut first-keystroke="ctrl meta alt #3f6" />
+  </action>
   <action id="PreviousProjectWindow">
     <keyboard-shortcut first-keystroke="shift meta alt back_quote" />
     <keyboard-shortcut first-keystroke="shift meta alt #10000a7" />
   </action>
+  <action id="ReformatWithPrettierAction">
+    <keyboard-shortcut first-keystroke="shift meta alt p" />
+    <keyboard-shortcut first-keystroke="ctrl meta alt l" />
+  </action>
   <action id="Scala.ShowImplicits">
     <keyboard-shortcut first-keystroke="shift ctrl alt equals" />
     <keyboard-shortcut first-keystroke="shift ctrl alt add" />
-  </action>
-  <action id="Tool_External Tools_Prettier">
-    <keyboard-shortcut first-keystroke="ctrl meta alt l" />
   </action>
   <action id="Tool_External Tools_integration_test">
     <keyboard-shortcut first-keystroke="ctrl meta alt r" />
