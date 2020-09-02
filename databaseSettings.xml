@@ -2,18 +2,18 @@
   <component name="DatabaseSettings" version="4">
     <text-mode>
       <parameter-patterns>
-        <parameter-pattern value="\$\{([^$\{\}]*)\}" scope="JavaScript,PostgreSQL" />
-        <parameter-pattern value="\$\{([^}]*)\}" scope="JavaScript,PostgreSQL" />
-        <parameter-pattern value="\$\d+" scope="JavaScript,PostgreSQL" />
-        <parameter-pattern value=":\d" />
-        <parameter-pattern value="%\w+" scope="JAVA,Python,PHP" predefined="%name" />
+        <parameter-pattern value="\$\{([^$\{\}]*)\}" in-literals="false" scope="JavaScript,PostgreSQL" />
+        <parameter-pattern value="\$\{([^}]*)\}" in-literals="false" scope="JavaScript,PostgreSQL" />
+        <parameter-pattern value="%\w+" in-literals="false" scope="JAVA,Python,PHP" predefined="%name" />
         <parameter-pattern value="\$\{([^\{\}]*)\}" in-literals="false" predefined="${name}" />
         <parameter-pattern value="\$\(([^\)]+)\)" in-literals="false" predefined="$(name)" />
-        <parameter-pattern value="#(\w+)#" scope="XML" predefined="#name#" />
+        <parameter-pattern value="#(\w+)#" in-literals="false" scope="XML" predefined="#name#" />
         <parameter-pattern value="(?&lt;=\W|\A)\$(\d+|[a-zA-Z_](?:\w|\.)*)\$?(?=\W|\z)" in-literals="false" scope="*,-SQL" predefined="$a.b.c$?" />
-        <parameter-pattern value="(?&lt;=\W|\A)#(\d+|[a-zA-Z_](?:\w|\.)*)#?(?=\W|\z)" scope="*,-SQL" predefined="#a.b.c#?" />
-        <parameter-pattern value="%\((\w+)\)s" scope="Python" predefined="%(name)s" />
-        <parameter-pattern value="EXTERNAL_FRAGMENT" />
+        <parameter-pattern value="(?&lt;=\W|\A)#(\d+|[a-zA-Z_](?:\w|\.)*)#?(?=\W|\z)" in-literals="false" scope="*,-SQL" predefined="#a.b.c#?" />
+        <parameter-pattern value="%\((\w+)\)s" in-literals="false" scope="Python" predefined="%(name)s" />
+        <parameter-pattern value="(?&lt;=\W|\A):(\d+|[a-zA-Z_](?:\w|\.)*)(?=\W|\z)" in-literals="false" scope="JAVA,kotlin,Groovy" predefined=":a.b.c" />
+        <parameter-pattern value="\$\d+" in-scripts="true" />
+        <parameter-pattern value=":\d" in-literals="false" />
       </parameter-patterns>
     </text-mode>
     <csv-formats>
