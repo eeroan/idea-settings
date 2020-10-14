@@ -7,6 +7,7 @@
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SHOW_RESULTS_IN_SEPARATE_VIEW" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="!*.log" />
     <mask>*.html</mask>
     <mask>*.[^log]</mask>
     <mask>*.css</mask>
@@ -29,7 +30,6 @@
     <mask>!*.log,!*.snap,!*.sql,!*/scripts/*</mask>
     <mask>package.json</mask>
     <mask>*.less,*.css</mask>
-    <mask>!*.log</mask>
     <mask>!*.log, !*/dist/*</mask>
     <mask>!*.log, !*/dist/*,!*.snap</mask>
     <mask>*.less</mask>
@@ -37,5 +37,6 @@
     <mask>*.groovy</mask>
     <mask>*.js,*.ts</mask>
     <mask>*.ts</mask>
+    <mask>!*.log</mask>
   </component>
 </application>
