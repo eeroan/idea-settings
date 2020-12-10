@@ -27,7 +27,6 @@
     <mask>*.less,*.css</mask>
     <mask>!*.log, !*/dist/*</mask>
     <mask>!*.log, !*/dist/*,!*.snap</mask>
-    <mask>*.less</mask>
     <mask>*.groovy</mask>
     <mask>*.js,*.ts</mask>
     <mask>*.ts</mask>
@@ -35,5 +34,6 @@
     <mask>!*.log,!*.html,!*.css</mask>
     <mask>*.js</mask>
     <mask>*.sql</mask>
+    <mask>*.less</mask>
   </component>
 </application>
