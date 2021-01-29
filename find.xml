@@ -5,6 +5,7 @@
     <option name="showResultsInSeparateView" value="true" />
     <option name="SHOW_RESULTS_IN_SEPARATE_VIEW" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.js" />
     <mask>*.js,!*test.js</mask>
     <mask>*.js,*.hbs</mask>
     <mask>*.tsx,*.js</mask>
@@ -31,9 +32,9 @@
     <mask>!*.snap</mask>
     <mask>!*.snap, !*.xml, !*test*</mask>
     <mask>*.jsx</mask>
-    <mask>*.js</mask>
     <mask>*.hbs</mask>
     <mask>*.js,*.ts</mask>
     <mask>*.less</mask>
+    <mask>*.js</mask>
   </component>
 </application>
