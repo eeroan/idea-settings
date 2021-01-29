@@ -33,7 +33,7 @@
     <mask>*.jsx</mask>
     <mask>*.hbs</mask>
     <mask>*.js,*.ts</mask>
-    <mask>*.less</mask>
     <mask>*.js</mask>
+    <mask>*.less</mask>
   </component>
 </application>
