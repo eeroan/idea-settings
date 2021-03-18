@@ -3,8 +3,6 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="showResultsInSeparateView" value="true" />
-    <option name="wholeWordsOnly" value="true" />
-    <option name="WHOLE_WORDS_ONLY" value="true" />
     <option name="SHOW_RESULTS_IN_SEPARATE_VIEW" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
     <mask>*.tsx,*.js</mask>
@@ -23,7 +21,6 @@
     <mask>*.groovy</mask>
     <mask>*.ts</mask>
     <mask>!*.log,!*.html,!*.css</mask>
-    <mask>*.sql</mask>
     <mask>*.js,*.ts,!*test</mask>
     <mask>*.js,*.ts,!*test.js</mask>
     <mask>!*.snap, !*.xml, !*test*</mask>
@@ -37,5 +34,6 @@
     <mask>*.tsx, !*test*</mask>
     <mask>!*.snap</mask>
     <mask>!*.log,!*.lock</mask>
+    <mask>*.sql</mask>
   </component>
 </application>
