@@ -7,6 +7,7 @@
       <mapping pattern="enable-firewall" type="PLAIN_TEXT" />
       <mapping pattern=".tslintignore" type="PLAIN_TEXT" />
       <mapping ext="node" type="PLAIN_TEXT" />
+      <removed_mapping pattern=".env" approved="true" type="Env File" />
     </extensionMap>
   </component>
 </application>
