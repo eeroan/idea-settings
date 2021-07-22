@@ -32,8 +32,8 @@
     <mask>*.js,*.ts</mask>
     <mask>*.tsx</mask>
     <mask>*.tsx,*.ts</mask>
-    <mask>!*.log</mask>
     <mask>!*.log,!*.json</mask>
     <mask>*.js</mask>
+    <mask>!*.log</mask>
   </component>
 </application>
