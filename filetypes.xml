@@ -2,10 +2,10 @@
   <component name="FileTypeManager" version="18">
     <extensionMap>
       <mapping ext="klib" type="ARCHIVE" />
-      <mapping pattern="force_clean_build" type="PLAIN_TEXT" />
       <mapping pattern="use_npm" type="PLAIN_TEXT" />
-      <mapping pattern="enable-firewall" type="PLAIN_TEXT" />
+      <mapping pattern="force_clean_build" type="PLAIN_TEXT" />
       <mapping pattern=".tslintignore" type="PLAIN_TEXT" />
+      <mapping pattern="enable-firewall" type="PLAIN_TEXT" />
       <mapping ext="node" type="PLAIN_TEXT" />
       <removed_mapping ext="env" approved="true" type="Env File" />
       <removed_mapping pattern=".env" approved="true" type="Env File" />
