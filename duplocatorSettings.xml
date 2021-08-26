@@ -3,14 +3,10 @@
     <option name="SELECTED_PROFILES">
       <set>
         <option value="ECMAScript 6" />
+        <option value="JavaScript" />
+        <option value="TypeScript" />
       </set>
     </option>
-    <option name="LAST_SELECTED_LANGUAGE" value="CSS" />
-  </component>
-  <component name="MultiLanguageDuplocatorSettings">
-    <object language="ECMAScript 6">
-      <option name="DISTINGUISH_FUNCTIONS" value="false" />
-      <option name="DISTINGUISH_LITERALS" value="false" />
-    </object>
+    <option name="LAST_SELECTED_LANGUAGE" value="TypeScript" />
   </component>
 </application>
