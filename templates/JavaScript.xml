@@ -7,7 +7,7 @@
       <option name="JSON" value="true" />
     </context>
   </template>
-  <template name="log" value="console.log('$VAR$', $VAR$)" description="console.log" toReformat="false" toShortenFQNames="true">
+  <template name="log" value="console.log($VAR$, '\n=== $VAR$')" description="console.log" toReformat="false" toShortenFQNames="true">
     <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
