@@ -28,12 +28,12 @@
     <mask>!*.snap</mask>
     <mask>!*.log,!*.lock</mask>
     <mask>*.sql</mask>
-    <mask>*.tsx</mask>
     <mask>*.tsx,*.ts</mask>
     <mask>!*.log,!*.json</mask>
     <mask>!*.log</mask>
     <mask>*.js</mask>
     <mask>*.js,*.ts</mask>
     <mask>*.less</mask>
+    <mask>*.tsx</mask>
   </component>
 </application>
