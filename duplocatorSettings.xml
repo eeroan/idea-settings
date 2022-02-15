@@ -6,8 +6,9 @@
         <option value="ECMAScript 6" />
         <option value="JavaScript" />
         <option value="TypeScript" />
+        <option value="TypeScript JSX" />
       </set>
     </option>
-    <option name="LAST_SELECTED_LANGUAGE" value="CSS" />
+    <option name="LAST_SELECTED_LANGUAGE" value="TypeScript JSX" />
   </component>
 </application>
