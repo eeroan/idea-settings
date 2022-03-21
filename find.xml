@@ -5,7 +5,7 @@
     <option name="showResultsInSeparateView" value="true" />
     <option name="SHOW_RESULTS_IN_SEPARATE_VIEW" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.json" />
+    <option name="FILE_MASK" value="*.ts" />
     <mask>*.less,*.tsx</mask>
     <mask>!*.log,!*.snap</mask>
     <mask>!*.log,!*.snap,!*.sql,!*/scripts/*</mask>
@@ -14,7 +14,6 @@
     <mask>!*.log, !*/dist/*</mask>
     <mask>!*.log, !*/dist/*,!*.snap</mask>
     <mask>*.groovy</mask>
-    <mask>*.ts</mask>
     <mask>!*.log,!*.html,!*.css</mask>
     <mask>*.js,*.ts,!*test</mask>
     <mask>*.js,*.ts,!*test.js</mask>
@@ -36,5 +35,6 @@
     <mask>*.ts,*.js, !*bundle*</mask>
     <mask>!*.log</mask>
     <mask>*.json</mask>
+    <mask>*.ts</mask>
   </component>
 </application>
