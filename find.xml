@@ -33,7 +33,7 @@
     <mask>!*.json</mask>
     <mask>*.json</mask>
     <mask>!*.snap</mask>
-    <mask>*.js</mask>
     <mask>!*.log</mask>
+    <mask>*.js</mask>
   </component>
 </application>
