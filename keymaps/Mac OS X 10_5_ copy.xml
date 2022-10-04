@@ -25,6 +25,9 @@
   <action id="Git.Branches">
     <keyboard-shortcut first-keystroke="ctrl meta alt b" />
   </action>
+  <action id="Git.Rebase">
+    <keyboard-shortcut first-keystroke="ctrl meta alt r" />
+  </action>
   <action id="Javascript.Linters.EsLint.Fix" />
   <action id="NextProjectWindow">
     <keyboard-shortcut first-keystroke="meta alt back_quote" />
@@ -44,8 +47,5 @@
   <action id="Scala.ShowImplicits">
     <keyboard-shortcut first-keystroke="shift ctrl alt equals" />
     <keyboard-shortcut first-keystroke="shift ctrl alt add" />
-  </action>
-  <action id="Tool_External Tools_integration_test">
-    <keyboard-shortcut first-keystroke="ctrl meta alt r" />
   </action>
 </keymap>
