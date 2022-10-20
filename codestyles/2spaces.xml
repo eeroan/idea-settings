@@ -357,7 +357,7 @@
   </OracleCodeStyleSettings>
   <PostgresCodeStyleSettings version="6">
     <option name="USE_GENERAL_STYLE" value="false" />
-    <option name="KEYWORD_CASE" value="1" />
+    <option name="KEYWORD_CASE" value="2" />
     <option name="TYPE_CASE" value="3" />
     <option name="CUSTOM_TYPE_CASE" value="3" />
     <option name="ALIAS_CASE" value="4" />
@@ -436,7 +436,8 @@
     <option name="PRIMARY_KEY_NAME_TEMPLATE" value="{table}_{columns}_pk" />
   </SQLiteCodeStyleSettings>
   <SqlCodeStyleSettings version="6">
-    <option name="KEYWORD_CASE" value="1" />
+    <option name="KEYWORD_CASE" value="2" />
+    <option name="IDENTIFIER_CASE" value="2" />
     <option name="TYPE_CASE" value="3" />
     <option name="CUSTOM_TYPE_CASE" value="3" />
     <option name="ALIAS_CASE" value="4" />
@@ -550,6 +551,11 @@
   </codeStyleSettings>
   <codeStyleSettings language="LESS">
     <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
+  </codeStyleSettings>
+  <codeStyleSettings language="PostgreSQL">
+    <indentOptions>
+      <option name="CONTINUATION_INDENT_SIZE" value="4" />
+    </indentOptions>
   </codeStyleSettings>
   <codeStyleSettings language="TypeScript">
     <indentOptions>
