@@ -1,5 +1,6 @@
 <application>
   <component name="ExternalResourceManagerImpl">
+    <resource url="http://schema.cip4.org/jdfschema_1_7/JDF.xsd" location="$USER_HOME$/Library/Caches/JetBrains/IntelliJIdea2022.2/extResources/29e41d7b_JDF.xsd" />
     <resource url="https://abitti.dev/schema/exam.xsd" location="$USER_HOME$/Library/Caches/JetBrains/IntelliJIdea2022.2/extResources/e5a23250_exam.xsd" />
   </component>
 </application>
