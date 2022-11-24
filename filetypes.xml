@@ -8,6 +8,7 @@
       <mapping pattern="enable-firewall" type="PLAIN_TEXT" />
       <mapping ext="prn" type="PLAIN_TEXT" />
       <mapping ext="node" type="PLAIN_TEXT" />
+      <mapping ext="tex" type="PLAIN_TEXT" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
       <removed_mapping ext="env" approved="true" type="Env File" />
       <removed_mapping ext="psd" approved="true" type="Image" />
