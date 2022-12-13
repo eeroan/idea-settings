@@ -2,6 +2,7 @@
   <component name="LanguageInjectionConfiguration">
     <injection language="SQL" injector-id="groovy">
       <display-name>Connection (java.sql)</display-name>
+      <single-file value="true" />
       <place disabled="true"><![CDATA[groovyElement().methodCallParameter(0, psiMethod().withName("nativeSQL").withParameters("java.lang.String").definedInClass("java.sql.Connection"))]]></place>
       <place disabled="true"><![CDATA[groovyElement().methodCallParameter(0, psiMethod().withName("prepareCall").withParameters("java.lang.String").definedInClass("java.sql.Connection"))]]></place>
       <place disabled="true"><![CDATA[groovyElement().methodCallParameter(0, psiMethod().withName("prepareCall").withParameters("java.lang.String", "int", "int").definedInClass("java.sql.Connection"))]]></place>
@@ -15,6 +16,7 @@
     </injection>
     <injection language="Groovy" injector-id="groovy">
       <display-name>GroovyShell (groovy.lang)</display-name>
+      <single-file value="true" />
       <place disabled="true"><![CDATA[groovyElement().methodCallParameter(0, psiMethod().withName("evaluate").withParameters("java.lang.String").definedInClass("groovy.lang.GroovyShell"))]]></place>
       <place disabled="true"><![CDATA[groovyElement().methodCallParameter(0, psiMethod().withName("evaluate").withParameters("java.lang.String", "java.lang.String").definedInClass("groovy.lang.GroovyShell"))]]></place>
       <place disabled="true"><![CDATA[groovyElement().methodCallParameter(0, psiMethod().withName("evaluate").withParameters("java.lang.String", "java.lang.String", "java.lang.String").definedInClass("groovy.lang.GroovyShell"))]]></place>
@@ -25,10 +27,13 @@
     </injection>
     <injection language="RegExp" injector-id="groovy">
       <display-name>RegExp</display-name>
+      <single-file value="true" />
+      <place><![CDATA[groovyElement().annotationParam("groovy.lang.Newify", "pattern")]]></place>
       <place disabled="true"><![CDATA[groovyLiteralExpression().regExpOperatorArgument()]]></place>
     </injection>
     <injection language="SQL" injector-id="groovy">
       <display-name>Statement (java.sql)</display-name>
+      <single-file value="true" />
       <place disabled="true"><![CDATA[groovyElement().methodCallParameter(0, psiMethod().withName("addBatch").withParameters("java.lang.String").definedInClass("java.sql.Statement"))]]></place>
       <place disabled="true"><![CDATA[groovyElement().methodCallParameter(0, psiMethod().withName("execute").withParameters("java.lang.String").definedInClass("java.sql.Statement"))]]></place>
       <place disabled="true"><![CDATA[groovyElement().methodCallParameter(0, psiMethod().withName("execute").withParameters("java.lang.String", "int").definedInClass("java.sql.Statement"))]]></place>
@@ -42,6 +47,7 @@
     </injection>
     <injection language="SQL" injector-id="groovy">
       <display-name>groovy.sql.Sql</display-name>
+      <single-file value="true" />
       <place disabled="true"><![CDATA[groovyElement().methodCallParameter(0, psiMethod().withName("eachRow").definedInClass("groovy.sql.Sql"))]]></place>
       <place disabled="true"><![CDATA[groovyElement().methodCallParameter(0, psiMethod().withName("execute").definedInClass("groovy.sql.Sql"))]]></place>
       <place disabled="true"><![CDATA[groovyElement().methodCallParameter(0, psiMethod().withName("executeInsert").definedInClass("groovy.sql.Sql"))]]></place>
@@ -52,15 +58,18 @@
     </injection>
     <injection language="SQL" injector-id="java">
       <display-name />
+      <single-file value="true" />
       <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("createNativeQuery").definedInClass("org.hibernate.query.QueryProducer"))]]></place>
       <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("createSQLQuery").definedInClass("org.hibernate.query.QueryProducer"))]]></place>
     </injection>
     <injection language="encoding-reference" injector-id="java">
       <display-name>Charset Name</display-name>
+      <single-file value="true" />
       <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("forName").withParameters("java.lang.String").definedInClass("java.nio.charset.Charset"))]]></place>
       <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("getBytes").withParameters("java.lang.String").definedInClass("java.lang.String"))]]></place>
       <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("isSupported").withParameters("java.lang.String").definedInClass("java.nio.charset.Charset"))]]></place>
       <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("setCharacterEncoding").withParameters("java.lang.String").definedInClass("javax.servlet.ServletResponse"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("setCharacterEncoding").withParameters("java.lang.String").definedInClass(psiClass().withQualifiedName(string().oneOf("javax.servlet.ServletResponse", "jakarta.servlet.ServletResponse"))))]]></place>
       <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("toString").withParameters("java.lang.String").definedInClass("java.io.ByteArrayOutputStream"))]]></place>
       <place disabled="true"><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("InputStreamReader").withParameters("java.io.InputStream", "java.lang.String").definedInClass("java.io.InputStreamReader"))]]></place>
       <place disabled="true"><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("OutputStreamWriter").withParameters("java.io.OutputStream", "java.lang.String").definedInClass("java.io.OutputStreamWriter"))]]></place>
@@ -80,6 +89,7 @@
     </injection>
     <injection language="encoding-reference" injector-id="java">
       <display-name>Charset Name</display-name>
+      <single-file value="true" />
       <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("getBytes").withParameters("java.lang.String").definedInClass("groovy.lang.GString"))]]></place>
       <place disabled="true"><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("newPrintWriter").withParameters("java.io.File", "java.lang.String").definedInClass("org.codehaus.groovy.runtime.DefaultGroovyMethods"))]]></place>
       <place disabled="true"><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("newReader").withParameters("java.io.File", "java.lang.String").definedInClass("org.codehaus.groovy.runtime.DefaultGroovyMethods"))]]></place>
@@ -89,6 +99,7 @@
     </injection>
     <injection language="SQL" injector-id="java">
       <display-name>Connection (java.sql)</display-name>
+      <single-file value="true" />
       <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("nativeSQL").withParameters("java.lang.String").definedInClass("java.sql.Connection"))]]></place>
       <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("prepareCall").withParameters("java.lang.String").definedInClass("java.sql.Connection"))]]></place>
       <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("prepareCall").withParameters("java.lang.String", "int", "int").definedInClass("java.sql.Connection"))]]></place>
@@ -102,7 +113,78 @@
     </injection>
     <injection language="SQL" injector-id="js">
       <display-name>SQL select/delete/insert/update/create</display-name>
+      <single-file value="true" />
       <place disabled="true"><![CDATA[jsLiteralExpression().withText(string().matchesBrics("[\"'`] *(((SELECT|DELETE) .*FROM)|((INSERT|REPLACE) .*INTO)|(UPDATE .* SET)|((CREATE|DROP|ALTER) +((TEMPORARY )?TABLE|(UNIQUE )?INDEX))) .*[\"'`]?"))]]></place>
+    </injection>
+    <injection language="RegExp" injector-id="sql">
+      <display-name>H2 RegExp</display-name>
+      <single-file value="true" />
+      <place disabled="true"><![CDATA[sqlElement().forDialects("H2").binaryExpressionArgument(1, sqlBinaryExpression().operation(leafTokens("regexp").or("not", "regexp")))]]></place>
+      <place disabled="true"><![CDATA[sqlElement().forDialects("H2").functionArgument(1, sqlFunctionCall().name("regexp_like").params(sqlExpressions().count(2, 3)))]]></place>
+      <place disabled="true"><![CDATA[sqlElement().forDialects("H2").functionArgument(1, sqlFunctionCall().name("regexp_replace").params(sqlExpressions().count(3, 4)))]]></place>
+    </injection>
+    <injection language="RegExp" injector-id="sql">
+      <display-name>HSQL RegExp</display-name>
+      <single-file value="true" />
+      <place disabled="true"><![CDATA[sqlElement().forDialects("HSQLDB").functionArgument(1, sqlFunctionCall().name("regexp_matches", "regexp_substring", "regexp_substring_array").params(sqlExpressions().count(2)))]]></place>
+      <place disabled="true"><![CDATA[sqlElement().forDialects("HSQLDB").functionArgument(1, sqlFunctionCall().name("regexp_replace").params(sqlExpressions().count(3)))]]></place>
+    </injection>
+    <injection language="JSON" injector-id="sql">
+      <display-name>MySQL CONVERT(..., JSON)</display-name>
+      <single-file value="true" />
+      <place disabled="true"><![CDATA[sqlElement().forDialects("MySQL").functionArgument(0, sqlFunctionCall().name("convert").params(sqlExpressions().count(1).at(0, sqlExpression().withNextMeaningfulSibling(leafTokens(","), 0).withNextMeaningfulSibling(psiElement().withText("json"), 1))))]]></place>
+    </injection>
+    <injection language="RegExp" injector-id="sql">
+      <display-name>MySQL RegExp</display-name>
+      <single-file value="true" />
+      <place disabled="true"><![CDATA[sqlElement().forDialects("MySQL").binaryExpressionArgument(1, sqlBinaryExpression().operation(leafTokens("regexp").or("not", "regexp").or("rlike").or("not", "rlike")))]]></place>
+      <place disabled="true"><![CDATA[sqlElement().forDialects("MySQL").functionArgument(1, sqlFunctionCall().name("regexp_instr", "regexp_like", "regexp_replace", "regexp_substr").params(sqlExpressions().count(2, 6)))]]></place>
+    </injection>
+    <injection language="XML" injector-id="sql">
+      <display-name>MySQL XML</display-name>
+      <single-file value="true" />
+      <place disabled="true"><![CDATA[sqlElement().forDialects("MySQL").functionArgument(0, sqlFunctionCall().name("ExtractValue").params(sqlExpressions().count(2)))]]></place>
+      <place disabled="true"><![CDATA[sqlElement().forDialects("MySQL").functionArgument(0, sqlFunctionCall().name("UpdateXML").params(sqlExpressions().count(3)))]]></place>
+      <place disabled="true"><![CDATA[sqlElement().forDialects("MySQL").functionArgument(2, sqlFunctionCall().name("UpdateXML").params(sqlExpressions().count(3)))]]></place>
+    </injection>
+    <injection language="XPath2" injector-id="sql">
+      <display-name>MySQL XPath</display-name>
+      <single-file value="true" />
+      <place disabled="true"><![CDATA[sqlElement().forDialects("MySQL").functionArgument(1, sqlFunctionCall().name("ExtractValue").params(sqlExpressions().count(2)))]]></place>
+      <place disabled="true"><![CDATA[sqlElement().forDialects("MySQL").functionArgument(1, sqlFunctionCall().name("UpdateXML").params(sqlExpressions().count(3)))]]></place>
+    </injection>
+    <injection language="JSON" injector-id="sql">
+      <display-name>Oracle JSON</display-name>
+      <single-file value="true" />
+      <place disabled="true"><![CDATA[sqlElement().forDialects("Oracle").functionArgument(0, -1, 1, sqlFunctionCall().name("json_array"))]]></place>
+      <place disabled="true"><![CDATA[sqlElement().forDialects("Oracle").functionArgument(0, sqlFunctionCall().name("json_query", "json_value", "json_array_agg"))]]></place>
+      <place disabled="true"><![CDATA[sqlElement().forDialects("Oracle").functionArgument(0, sqlFunctionCall().name("json_table"))]]></place>
+      <place disabled="true"><![CDATA[sqlElement().forDialects("Oracle").functionArgument(1, -1, 2, sqlFunctionCall().name("json_object"))]]></place>
+      <place disabled="true"><![CDATA[sqlElement().forDialects("Oracle").functionArgument(1, sqlFunctionCall().name("json_object_agg"))]]></place>
+    </injection>
+    <injection language="RegExp" injector-id="sql">
+      <display-name>Oracle RegExp</display-name>
+      <single-file value="true" />
+      <place disabled="true"><![CDATA[sqlElement().forDialects("Oracle").functionArgument(1, sqlFunctionCall().name("regexp_count").params(sqlExpressions().count(2, 4)))]]></place>
+      <place disabled="true"><![CDATA[sqlElement().forDialects("Oracle").functionArgument(1, sqlFunctionCall().name("regexp_instr").params(sqlExpressions().count(2, 7)))]]></place>
+      <place disabled="true"><![CDATA[sqlElement().forDialects("Oracle").functionArgument(1, sqlFunctionCall().name("regexp_like").params(sqlExpressions().count(2, 3)))]]></place>
+      <place disabled="true"><![CDATA[sqlElement().forDialects("Oracle").functionArgument(1, sqlFunctionCall().name("regexp_replace", "regexp_substr").params(sqlExpressions().count(2, 6)))]]></place>
+    </injection>
+    <injection language="XML" injector-id="sql">
+      <display-name>Oracle XML</display-name>
+      <single-file value="true" />
+      <place disabled="true"><![CDATA[sqlElement().forDialects("Oracle").functionArgument(0, sqlFunctionCall().name("xmlparse", "xmltype").params(sqlExpressions().count(1)))]]></place>
+      <place disabled="true"><![CDATA[sqlElement().forDialects("Oracle").functionArgument(0, sqlFunctionCall().name("xmlserialize"))]]></place>
+    </injection>
+    <injection language="XPath2" injector-id="sql">
+      <display-name>Oracle XPath</display-name>
+      <single-file value="true" />
+      <place disabled="true"><![CDATA[sqlElement().forDialects("Oracle").functionArgument(0, sqlFunctionCall().name("xmlquery", "xmlexists"))]]></place>
+      <place disabled="true"><![CDATA[sqlElement().forDialects("Oracle").functionArgument(0, sqlFunctionCall().name("xmltable"))]]></place>
+      <place disabled="true"><![CDATA[sqlElement().forDialects("Oracle").functionArgument(1, -2, 2, sqlFunctionCall().name("updatexml"))]]></place>
+      <place disabled="true"><![CDATA[sqlElement().forDialects("Oracle").functionArgument(1, sqlFunctionCall().name("appendchildxml", "insertxmlafter", "insertxmlbefore").params(sqlExpressions().count(3, 4)))]]></place>
+      <place disabled="true"><![CDATA[sqlElement().forDialects("Oracle").functionArgument(1, sqlFunctionCall().name("extract", "extractvalue", "deletexml", "existsnode").params(sqlExpressions().count(2, 3)))]]></place>
+      <place disabled="true"><![CDATA[sqlElement().forDialects("Oracle").functionArgument(1, sqlFunctionCall().name("insertchildxml", "insertchildxmlafter", "insertchildxmlbefore").params(sqlExpressions().count(4, 5)))]]></place>
     </injection>
   </component>
 </application>
