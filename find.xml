@@ -1,10 +1,10 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Project 'cdk-infra'" />
-    <option name="defaultScopeName" value="Project 'cdk-infra'" />
+    <option name="customScope" value="Project 'rich-text-editor'" />
+    <option name="defaultScopeName" value="Project 'rich-text-editor'" />
     <option name="showResultsInSeparateView" value="true" />
     <option name="SHOW_RESULTS_IN_SEPARATE_VIEW" value="true" />
-    <option name="SEARCH_SCOPE" value="Project 'cdk-infra'" />
+    <option name="SEARCH_SCOPE" value="Project 'rich-text-editor'" />
     <option name="FILE_MASK" value="!*test*, *.js, *.ts" />
     <mask>*.tsx,*.ts</mask>
     <mask>!*.log,!*.json</mask>
