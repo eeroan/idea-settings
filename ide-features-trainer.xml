@@ -33,7 +33,7 @@
         <entry key="git.basicworkflow" value="NOT_PASSED" />
         <entry key="git.changelistsandshelf" value="NOT_PASSED" />
         <entry key="git.commit" value="NOT_PASSED" />
-        <entry key="git.interactiverebase" value="NOT_PASSED" />
+        <entry key="git.interactiverebase" value="PASSED" />
         <entry key="git.projecthistory" value="NOT_PASSED" />
         <entry key="git.quickstart" value="NOT_PASSED" />
         <entry key="goland2019.2.extractmethodrefactoringwithreturns" value="NOT_PASSED" />
